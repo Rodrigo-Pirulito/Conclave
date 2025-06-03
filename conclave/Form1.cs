@@ -21,8 +21,8 @@ namespace conclave
 
         private void BtnGerenciar_Click(object sender, EventArgs e)
         {
-            formGerenciar f = new formGerenciar(this, papaveis);
-            f.Show();
+            formGerenciar formG = new formGerenciar(this, papaveis);
+            formG.Show();
             this.Hide();
         }
         public void AtribuirPapaveis(string[][] papaveis)
@@ -32,13 +32,13 @@ namespace conclave
 
         private void BtnVotar_Click(object sender, EventArgs e)
         {
-            FrmVotar f = new FrmVotar(this, papaveis);
-            f.ShowDialog();
+            FrmVotar formG = new FrmVotar(this, papaveis);
+            formG.ShowDialog();
         }
 
         private void BtnResults_Click(object sender, EventArgs e)
         {
-			DialogResult confirmar = MessageBox.Show("Deseja encerrar a votação?", "Encerrar Votação", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+			DialogResult confirmar = MessageBox.Show("Certesa?", "Cancelar Votação", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 			if (confirmar == DialogResult.No)
 				return;
 
@@ -70,7 +70,7 @@ namespace conclave
 
 			if (eleitoIndex == -1)
 			{
-				MessageBox.Show("Nenhum cardeal atingiu os 2/3 dos votos. Não houve vitorioso.", "Resultado");
+				MessageBox.Show("Votos insuficientes. Não houve vitorioso.", "Resultado");
 				for (int i = 0; i < papaveis.Length; i++)
 				{
 					if (papaveis[i] != null)
