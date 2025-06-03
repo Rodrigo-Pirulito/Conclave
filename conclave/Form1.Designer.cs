@@ -37,7 +37,7 @@
 			// 
 			this.BtnGerenciar.Location = new System.Drawing.Point(12, 12);
 			this.BtnGerenciar.Name = "BtnGerenciar";
-			this.BtnGerenciar.Size = new System.Drawing.Size(288, 106);
+			this.BtnGerenciar.Size = new System.Drawing.Size(260, 96);
 			this.BtnGerenciar.TabIndex = 0;
 			this.BtnGerenciar.Text = "Gerenciar Papaveis";
 			this.BtnGerenciar.UseVisualStyleBackColor = true;
@@ -47,7 +47,7 @@
 			// 
 			this.BtnVotar.Location = new System.Drawing.Point(12, 124);
 			this.BtnVotar.Name = "BtnVotar";
-			this.BtnVotar.Size = new System.Drawing.Size(288, 96);
+			this.BtnVotar.Size = new System.Drawing.Size(260, 96);
 			this.BtnVotar.TabIndex = 1;
 			this.BtnVotar.Text = "Votar";
 			this.BtnVotar.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
 			// 
 			this.BtnResults.Location = new System.Drawing.Point(12, 226);
 			this.BtnResults.Name = "BtnResults";
-			this.BtnResults.Size = new System.Drawing.Size(288, 113);
+			this.BtnResults.Size = new System.Drawing.Size(260, 96);
 			this.BtnResults.TabIndex = 2;
 			this.BtnResults.Text = "Resultados";
 			this.BtnResults.UseVisualStyleBackColor = true;
