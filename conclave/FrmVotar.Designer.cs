@@ -37,11 +37,11 @@
             // 
             this.lblVotar.AutoSize = true;
             this.lblVotar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVotar.Location = new System.Drawing.Point(86, 9);
+            this.lblVotar.Location = new System.Drawing.Point(90, 9);
             this.lblVotar.Name = "lblVotar";
-            this.lblVotar.Size = new System.Drawing.Size(230, 55);
+            this.lblVotar.Size = new System.Drawing.Size(250, 55);
             this.lblVotar.TabIndex = 0;
-            this.lblVotar.Text = "Cardeais:";
+            this.lblVotar.Text = "Papaveis:";
             // 
             // lbxCardeais
             // 
